@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ABA",
+        "ABA"              
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:birch_log"
+        },    
+        
+        "B":
+        {
+            "item": "minecraft:glass_pane"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwtrpdoors:birch_bark_trapdoor",
+        "count": 2
+    }
+}
+
+

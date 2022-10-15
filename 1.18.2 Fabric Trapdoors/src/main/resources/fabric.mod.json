@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "mcwtrpdoors",
+  "version": "${version}",
+
+  "name": "Macaw's Trapdoors",
+  "description": "Adds vanila trapdoors in every plank variation, and some new trapdoors too!",
+  "authors": [
+    "SketchMacaw"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors",
+    "sources": ""
+  },
+
+  "license": "All Rights Reserved",
+  "icon": "assets/mcwtrpdoors/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.kikoz.mcwtrpdoors.MacawsTrapdoors"
+    ],
+	"client": [
+      "net.kikoz.mcwtrpdoors.util.ClientEventBusSubscriber"
+    ]
+  },
+  "mixins": [
+    "mcwtrpdoors.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

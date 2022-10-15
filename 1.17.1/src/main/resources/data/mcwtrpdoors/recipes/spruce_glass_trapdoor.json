@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ABA",
+        "ABA"              
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:spruce_planks"
+        },    
+        
+        "B":
+        {
+            "item": "minecraft:glass_pane"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwtrpdoors:spruce_glass_trapdoor",
+        "count": 2
+    }
+}
+
+

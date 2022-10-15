@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        "ABA",
+        " A "                
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:paper"
+        },    
+        
+        "B":
+        {
+            "item": "minecraft:acacia_trapdoor"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwtrpdoors:print_tropical",
+        "count": 4
+    }
+}
+
+

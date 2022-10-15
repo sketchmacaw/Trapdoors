@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "mcwtrpdoors:block/parent/ranch_trapdoor_open",
+	"textures": {
+		"1": "minecraft:block/jungle_log",
+		"2": "minecraft:block/stripped_jungle_log",
+		"particle": "minecraft:block/jungle_log"
+	}
+}

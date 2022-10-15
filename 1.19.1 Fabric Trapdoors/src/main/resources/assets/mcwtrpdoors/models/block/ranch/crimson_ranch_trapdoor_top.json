@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "mcwtrpdoors:block/parent/ranch_trapdoor_top",
+	"textures": {
+		"1": "minecraft:block/crimson_stem",
+		"2": "minecraft:block/stripped_crimson_stem",
+		"particle": "minecraft:block/crimson_stem"
+	}
+}

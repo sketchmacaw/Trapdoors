@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        "ABA",
+        " A "                
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:paper"
+        },    
+        
+        "B":
+        {
+            "item": "minecraft:jungle_trapdoor"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwtrpdoors:print_beach",
+        "count": 4
+    }
+}
+
+

@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ABA",
+        "ACA"               
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:iron_ingot"
+        },    
+        
+        "B":
+        {
+            "item": "minecraft:yellow_dye"
+        },
+		
+		"C":
+        {
+            "item": "minecraft:black_dye"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwtrpdoors:metal_warning_trapdoor",
+        "count": 1
+    }
+}
+
+

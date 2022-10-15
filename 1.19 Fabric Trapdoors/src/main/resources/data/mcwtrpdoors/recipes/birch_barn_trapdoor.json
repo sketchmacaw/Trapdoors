@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "A",
+        "B"               
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:birch_planks"
+        },    
+        
+        "B":
+        {
+            "item": "mcwtrpdoors:birch_glass_trapdoor"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwtrpdoors:birch_barn_trapdoor",
+        "count": 1
+    }
+}
+
+

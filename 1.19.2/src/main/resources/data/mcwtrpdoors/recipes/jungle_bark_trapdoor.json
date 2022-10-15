@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "ABA",
+        "ABA"              
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:jungle_log"
+        },    
+        
+        "B":
+        {
+            "item": "minecraft:glass_pane"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwtrpdoors:jungle_bark_trapdoor",
+        "count": 2
+    }
+}
+
+

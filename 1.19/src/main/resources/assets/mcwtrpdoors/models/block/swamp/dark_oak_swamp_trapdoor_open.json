@@ -1,0 +1,6 @@
+{
+    "parent": "mcwtrpdoors:block/parent/template_orientable_trapdoor_open",
+    "textures": {
+        "texture": "mcwtrpdoors:block/swamp/dark_oak_swamp_trapdoor"
+    }
+}

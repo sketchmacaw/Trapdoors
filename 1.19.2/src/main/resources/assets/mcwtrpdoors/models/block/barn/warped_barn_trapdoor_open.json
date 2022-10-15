@@ -1,0 +1,6 @@
+{
+    "parent": "mcwtrpdoors:block/parent/template_orientable_trapdoor_open",
+    "textures": {
+        "texture": "mcwtrpdoors:block/barn/warped_barn_trapdoor"
+    }
+}
