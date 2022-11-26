@@ -1,6 +1,0 @@
-{
-    "parent": "block/template_orientable_trapdoor_top",
-    "textures": {
-        "texture": "mcwtrpdoors:block/four_panel/oak_four_panel_trapdoor"
-    }
-}
