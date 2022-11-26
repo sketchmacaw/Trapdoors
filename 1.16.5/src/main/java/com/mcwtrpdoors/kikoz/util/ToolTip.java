@@ -25,8 +25,8 @@ public class ToolTip extends Item {
 	}
 	
 	   @OnlyIn(Dist.CLIENT)
-	   public void appendHoverText(ItemStack p_77624_1_, @Nullable World p_77624_2_, List<ITextComponent> p_77624_3_, ITooltipFlag p_77624_4_) {
-	      p_77624_3_.add(this.getDescription().withStyle(TextFormatting.GRAY));
+	   public void appendHoverText(ItemStack stack, @Nullable World level, List<ITextComponent> list, ITooltipFlag flag) {
+	      list.add(this.getDescription().withStyle(TextFormatting.GRAY));
 	   }
 	   
 		@Override
