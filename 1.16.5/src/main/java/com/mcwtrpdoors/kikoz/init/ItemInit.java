@@ -10,6 +10,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemInit {
 	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MacawsTrapdoors.MOD_ID);
+
 	
 	public static final RegistryObject<Item> PRINT_CLASSIC = ITEMS.register("print_classic", () -> new ToolTip(new Item.Properties().tab(MacawsTrapdoors.TrapDoorItemGroup)));
 	public static final RegistryObject<Item> PRINT_COTTAGE = ITEMS.register("print_cottage", () -> new ToolTip(new Item.Properties().tab(MacawsTrapdoors.TrapDoorItemGroup)));
@@ -20,6 +21,7 @@ public class ItemInit {
 	public static final RegistryObject<Item> PRINT_BARRED = ITEMS.register("print_barred", () -> new ToolTip(new Item.Properties().tab(MacawsTrapdoors.TrapDoorItemGroup)));
 	public static final RegistryObject<Item> PRINT_MYSTIC = ITEMS.register("print_mystic", () -> new ToolTip(new Item.Properties().tab(MacawsTrapdoors.TrapDoorItemGroup)));
 	public static final RegistryObject<Item> PRINT_SWAMP = ITEMS.register("print_swamp", () -> new ToolTip(new Item.Properties().tab(MacawsTrapdoors.TrapDoorItemGroup)));
-	
+	public static final RegistryObject<Item> PRINT_BAMBOO = ITEMS.register("print_bamboo", () -> new ToolTip(new Item.Properties().tab(MacawsTrapdoors.TrapDoorItemGroup)));
+
 	
 }

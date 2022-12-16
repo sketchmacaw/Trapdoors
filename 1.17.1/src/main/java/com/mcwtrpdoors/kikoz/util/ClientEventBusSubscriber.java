@@ -17,12 +17,12 @@ public class ClientEventBusSubscriber {
 	@SubscribeEvent
 	public static void clientSetup(FMLClientSetupEvent event) {
 		
-		ItemBlockRenderTypes.setRenderLayer(BlockInit.OAK_BARN_TRAPDOOR.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.OAK_BARN_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.OAK_BARRED_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.OAK_BEACH_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.OAK_COTTAGE_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.OAK_FOUR_PANEL_TRAPDOOR.get(), RenderType.cutout());
-		ItemBlockRenderTypes.setRenderLayer(BlockInit.OAK_GLASS_TRAPDOOR.get(), RenderType.translucent());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.OAK_GLASS_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.OAK_MYSTIC_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.OAK_PAPER_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.OAK_TROPICAL_TRAPDOOR.get(), RenderType.cutout());
@@ -31,7 +31,7 @@ public class ClientEventBusSubscriber {
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.SPRUCE_BEACH_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.SPRUCE_CLASSIC_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.SPRUCE_FOUR_PANEL_TRAPDOOR.get(), RenderType.cutout());
-		ItemBlockRenderTypes.setRenderLayer(BlockInit.SPRUCE_GLASS_TRAPDOOR.get(), RenderType.cutoutMipped());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.SPRUCE_GLASS_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.SPRUCE_MYSTIC_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.SPRUCE_PAPER_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.SPRUCE_TROPICAL_TRAPDOOR.get(), RenderType.cutout());
@@ -108,6 +108,27 @@ public class ClientEventBusSubscriber {
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.CRIMSON_BARK_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.WARPED_BARK_TRAPDOOR.get(), RenderType.cutout());
 		
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.OAK_BAMBOO_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.SPRUCE_BAMBOO_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.BIRCH_BAMBOO_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.JUNGLE_BAMBOO_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.ACACIA_BAMBOO_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.DARK_OAK_BAMBOO_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.CRIMSON_BAMBOO_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.WARPED_BAMBOO_TRAPDOOR.get(), RenderType.cutout());
+		
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.BAMBOO_BARN_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.BAMBOO_BARRED_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.BAMBOO_BEACH_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.BAMBOO_CLASSIC_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.BAMBOO_COTTAGE_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.BAMBOO_FOUR_PANEL_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.BAMBOO_GLASS_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.BAMBOO_MYSTIC_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.BAMBOO_PAPER_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.BAMBOO_SWAMP_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.BAMBOO_TROPICAL_TRAPDOOR.get(), RenderType.cutout());
+	
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.OAK_RANCH_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.SPRUCE_RANCH_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.BIRCH_RANCH_TRAPDOOR.get(), RenderType.cutout());

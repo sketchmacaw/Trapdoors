@@ -35,6 +35,7 @@ public class BlockInit {
     public static final Block OAK_PAPER_TRAPDOOR = registerBlock("oak_paper_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block OAK_TROPICAL_TRAPDOOR = registerBlock("oak_tropical_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block OAK_SWAMP_TRAPDOOR = registerBlock("oak_swamp_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block OAK_BAMBOO_TRAPDOOR = registerBlock("oak_bamboo_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
 
     public static final Block SPRUCE_BARN_TRAPDOOR = registerBlock("spruce_barn_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block SPRUCE_BARRED_TRAPDOOR = registerBlock("spruce_barred_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
@@ -46,6 +47,7 @@ public class BlockInit {
     public static final Block SPRUCE_PAPER_TRAPDOOR = registerBlock("spruce_paper_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block SPRUCE_TROPICAL_TRAPDOOR = registerBlock("spruce_tropical_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block SPRUCE_SWAMP_TRAPDOOR = registerBlock("spruce_swamp_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block SPRUCE_BAMBOO_TRAPDOOR = registerBlock("spruce_bamboo_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
 
     public static final Block BIRCH_BARN_TRAPDOOR = registerBlock("birch_barn_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block BIRCH_BARRED_TRAPDOOR = registerBlock("birch_barred_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
@@ -57,6 +59,7 @@ public class BlockInit {
     public static final Block BIRCH_MYSTIC_TRAPDOOR = registerBlock("birch_mystic_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block BIRCH_TROPICAL_TRAPDOOR = registerBlock("birch_tropical_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block BIRCH_SWAMP_TRAPDOOR = registerBlock("birch_swamp_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block BIRCH_BAMBOO_TRAPDOOR = registerBlock("birch_bamboo_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
 
     public static final Block JUNGLE_BARN_TRAPDOOR = registerBlock("jungle_barn_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block JUNGLE_BARRED_TRAPDOOR = registerBlock("jungle_barred_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
@@ -68,6 +71,7 @@ public class BlockInit {
     public static final Block JUNGLE_PAPER_TRAPDOOR = registerBlock("jungle_paper_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block JUNGLE_TROPICAL_TRAPDOOR = registerBlock("jungle_tropical_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block JUNGLE_SWAMP_TRAPDOOR = registerBlock("jungle_swamp_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block JUNGLE_BAMBOO_TRAPDOOR = registerBlock("jungle_bamboo_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
 
     public static final Block ACACIA_BARN_TRAPDOOR = registerBlock("acacia_barn_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block ACACIA_BARRED_TRAPDOOR = registerBlock("acacia_barred_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
@@ -79,6 +83,7 @@ public class BlockInit {
     public static final Block ACACIA_MYSTIC_TRAPDOOR = registerBlock("acacia_mystic_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block ACACIA_PAPER_TRAPDOOR = registerBlock("acacia_paper_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block ACACIA_SWAMP_TRAPDOOR = registerBlock("acacia_swamp_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block ACACIA_BAMBOO_TRAPDOOR = registerBlock("acacia_bamboo_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
 
     public static final Block DARK_OAK_BARN_TRAPDOOR = registerBlock("dark_oak_barn_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block DARK_OAK_BARRED_TRAPDOOR = registerBlock("dark_oak_barred_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
@@ -90,6 +95,7 @@ public class BlockInit {
     public static final Block DARK_OAK_PAPER_TRAPDOOR = registerBlock("dark_oak_paper_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block DARK_OAK_TROPICAL_TRAPDOOR = registerBlock("dark_oak_tropical_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block DARK_OAK_SWAMP_TRAPDOOR = registerBlock("dark_oak_swamp_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block DARK_OAK_BAMBOO_TRAPDOOR = registerBlock("dark_oak_bamboo_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
 
     public static final Block CRIMSON_BARN_TRAPDOOR = registerBlock("crimson_barn_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD, MapColor.DARK_CRIMSON).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block CRIMSON_BEACH_TRAPDOOR = registerBlock("crimson_beach_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD, MapColor.DARK_CRIMSON).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
@@ -101,6 +107,7 @@ public class BlockInit {
     public static final Block CRIMSON_PAPER_TRAPDOOR = registerBlock("crimson_paper_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD, MapColor.DARK_CRIMSON).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block CRIMSON_TROPICAL_TRAPDOOR = registerBlock("crimson_tropical_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD, MapColor.DARK_CRIMSON).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block CRIMSON_SWAMP_TRAPDOOR = registerBlock("crimson_swamp_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD, MapColor.DARK_CRIMSON).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block CRIMSON_BAMBOO_TRAPDOOR = registerBlock("crimson_bamboo_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD, MapColor.DARK_CRIMSON).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
 
     public static final Block WARPED_BARN_TRAPDOOR = registerBlock("warped_barn_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD, MapColor.CYAN).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block WARPED_BARRED_TRAPDOOR = registerBlock("warped_barred_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD, MapColor.CYAN).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
@@ -112,6 +119,7 @@ public class BlockInit {
     public static final Block WARPED_PAPER_TRAPDOOR = registerBlock("warped_paper_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD, MapColor.CYAN).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block WARPED_TROPICAL_TRAPDOOR = registerBlock("warped_tropical_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD, MapColor.CYAN).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block WARPED_SWAMP_TRAPDOOR = registerBlock("warped_swamp_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD, MapColor.CYAN).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block WARPED_BAMBOO_TRAPDOOR = registerBlock("warped_bamboo_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD, MapColor.CYAN).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
 
     public static final Block MANGROVE_BARN_TRAPDOOR = registerBlock("mangrove_barn_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8f).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block MANGROVE_BARRED_TRAPDOOR = registerBlock("mangrove_barred_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
@@ -123,6 +131,19 @@ public class BlockInit {
     public static final Block MANGROVE_PAPER_TRAPDOOR = registerBlock("mangrove_paper_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block MANGROVE_TROPICAL_TRAPDOOR = registerBlock("mangrove_tropical_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block MANGROVE_CLASSIC_TRAPDOOR = registerBlock("mangrove_classic_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block MANGROVE_BAMBOO_TRAPDOOR = registerBlock("mangrove_bamboo_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+
+    public static final Block BAMBOO_BARN_TRAPDOOR = registerBlock("bamboo_barn_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8f).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block BAMBOO_BARRED_TRAPDOOR = registerBlock("bamboo_barred_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block BAMBOO_BEACH_TRAPDOOR = registerBlock("bamboo_beach_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block BAMBOO_COTTAGE_TRAPDOOR = registerBlock("bamboo_cottage_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block BAMBOO_FOUR_PANEL_TRAPDOOR = registerBlock("bamboo_four_panel_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block BAMBOO_GLASS_TRAPDOOR = registerBlock("bamboo_glass_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block BAMBOO_MYSTIC_TRAPDOOR = registerBlock("bamboo_mystic_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block BAMBOO_PAPER_TRAPDOOR = registerBlock("bamboo_paper_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block BAMBOO_TROPICAL_TRAPDOOR = registerBlock("bamboo_tropical_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block BAMBOO_CLASSIC_TRAPDOOR = registerBlock("bamboo_classic_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
+    public static final Block BAMBOO_SWAMP_TRAPDOOR = registerBlock("bamboo_swamp_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
 
     public static final Block OAK_BARK_TRAPDOOR = registerBlock("oak_bark_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);
     public static final Block SPRUCE_BARK_TRAPDOOR = registerBlock("spruce_bark_trapdoor", new Trapdoor(FabricBlockSettings.of(Material.WOOD).sounds(BlockSoundGroup.WOOD).strength(1.8F).nonOpaque()), TrapdoorGroup.TRAPDOORSGROUP);

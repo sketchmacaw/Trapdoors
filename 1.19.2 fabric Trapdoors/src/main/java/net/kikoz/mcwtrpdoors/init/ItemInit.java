@@ -19,6 +19,7 @@ public class ItemInit {
     public static final Item PRINT_BARRED = registerItem("print_barred", new ToolTip(new FabricItemSettings().group(TrapdoorGroup.TRAPDOORSGROUP).maxCount(64)));
     public static final Item PRINT_MYSTIC = registerItem("print_mystic", new ToolTip(new FabricItemSettings().group(TrapdoorGroup.TRAPDOORSGROUP).maxCount(64)));
     public static final Item PRINT_SWAMP = registerItem("print_swamp", new ToolTip(new FabricItemSettings().group(TrapdoorGroup.TRAPDOORSGROUP).maxCount(64)));
+    public static final Item PRINT_BAMBOO = registerItem("print_bamboo", new ToolTip(new FabricItemSettings().group(TrapdoorGroup.TRAPDOORSGROUP).maxCount(64)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MacawsTrapdoors.MOD_ID, name), item);

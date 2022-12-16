@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+	"mcwtrpdoors:metal_trapdoor",
+	"mcwtrpdoors:metal_full_trapdoor",
+	"mcwtrpdoors:metal_warning_trapdoor"
+  ]
+}

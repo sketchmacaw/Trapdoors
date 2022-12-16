@@ -1,14 +1,14 @@
 modLoader="javafml"
 loaderVersion="[28,)"
-license="All Rights Reserved"
+license="MIT"
 
 logoFile="trapdoorslogo.png"
 [[mods]]
 modId="mcwtrpdoors"
-version="1.0.7"
+version="1.0.8"
 displayName="Macaw's Trapdoors"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/macaws-trapdoors"
 updateJSONURL="https://raw.githubusercontent.com/sketchmacaw/macawsmods/master/trapdoors.json"
 credits=""
-authors="Sketch Macaw"
+authors="Sketch Macaw & Peachy Macaw"
 description="Adds lots of different Trapdoors! With vanila and unique styles."

@@ -1,6 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"parent": "block/thin_block",
+	"render_type": "cutout",
 	"textures": {
 		"2": "block/bamboo_stalk",
 		"4": "block/bamboo_large_leaves",

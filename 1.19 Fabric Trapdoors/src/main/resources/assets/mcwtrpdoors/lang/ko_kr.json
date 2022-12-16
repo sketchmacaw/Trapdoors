@@ -1,7 +1,7 @@
 	{
 		
 
-		"itemGroup.mcwtrpdoors.trapdoorsgroup": "Macaw의 다락문",
+		"itemGroup.mcwtrpdoors": "Macaw의 다락문",
 
    	    "item.mcwtrpdoors.print_classic":"기본 다락문 양식",
         "item.mcwtrpdoors.print_cottage":"시골집 다락문 양식",

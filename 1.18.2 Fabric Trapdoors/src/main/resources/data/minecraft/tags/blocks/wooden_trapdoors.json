@@ -8,8 +8,6 @@
     "minecraft:oak_trapdoor",
     "minecraft:spruce_trapdoor",
 	
-"mcwtrpdoors:bamboo_trapdoor",	
-	
 "mcwtrpdoors:oak_barn_trapdoor",
 "mcwtrpdoors:oak_barred_trapdoor",
 "mcwtrpdoors:oak_beach_trapdoor",
@@ -20,6 +18,8 @@
 "mcwtrpdoors:oak_paper_trapdoor",
 "mcwtrpdoors:oak_tropical_trapdoor",
 "mcwtrpdoors:oak_swamp_trapdoor",
+
+"mcwtrpdoors:bamboo_trapdoor",
 
 "mcwtrpdoors:spruce_barn_trapdoor",
 "mcwtrpdoors:spruce_barred_trapdoor",
@@ -98,6 +98,27 @@
 "mcwtrpdoors:warped_tropical_trapdoor",
 "mcwtrpdoors:warped_swamp_trapdoor",
 
+"mcwtrpdoors:bamboo_barn_trapdoor",
+"mcwtrpdoors:bamboo_barred_trapdoor",
+"mcwtrpdoors:bamboo_beach_trapdoor",
+"mcwtrpdoors:bamboo_cottage_trapdoor",
+"mcwtrpdoors:bamboo_four_panel_trapdoor",
+"mcwtrpdoors:bamboo_glass_trapdoor",
+"mcwtrpdoors:bamboo_mystic_trapdoor",
+"mcwtrpdoors:bamboo_paper_trapdoor",
+"mcwtrpdoors:bamboo_tropical_trapdoor",
+"mcwtrpdoors:bamboo_classic_trapdoor",
+"mcwtrpdoors:bamboo_swamp_trapdoor",
+
+"mcwtrpdoors:oak_bamboo_trapdoor",
+"mcwtrpdoors:spruce_bamboo_trapdoor",
+"mcwtrpdoors:birch_bamboo_trapdoor",
+"mcwtrpdoors:jungle_bamboo_trapdoor",
+"mcwtrpdoors:acacia_bamboo_trapdoor",
+"mcwtrpdoors:dark_oak_bamboo_trapdoor",
+"mcwtrpdoors:crimson_bamboo_trapdoor",
+"mcwtrpdoors:warped_bamboo_trapdoor",
+
 "mcwtrpdoors:oak_bark_trapdoor",
 "mcwtrpdoors:spruce_bark_trapdoor",
 "mcwtrpdoors:birch_bark_trapdoor",
@@ -115,6 +136,7 @@
 "mcwtrpdoors:dark_oak_ranch_trapdoor",
 "mcwtrpdoors:crimson_ranch_trapdoor",
 "mcwtrpdoors:warped_ranch_trapdoor"
+
 
   ]
 }
