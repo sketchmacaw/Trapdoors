@@ -13,7 +13,7 @@
     { 
         "A":
         {
-            "item": "minecraft:warped_planks"
+            "item": "minecraft:mangrove_planks"
         },    
         
         "B":
@@ -24,7 +24,7 @@
     
     "result":
     {
-        "item":  "mcwtrpdoors:warped_bamboo_trapdoor",
+        "item":  "mcwtrpdoors:mangrove_bamboo_trapdoor",
         "count": 1
     }
 }
