@@ -18,13 +18,13 @@
         
         "B":
         {
-            "item": "mcwtrpdoors:print_swamp"
+            "item": "mcwtrpdoors:print_tropical"
         }
     },
     
     "result":
     {
-        "item":  "mcwtrpdoors:bamboo_swamp_trapdoor",
+        "item":  "mcwtrpdoors:bamboo_tropical_trapdoor",
         "count": 1
     }
 }

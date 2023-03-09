@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "barn_trapdoors",
+	
+    "pattern":
+    [
+        "A",
+        "B"               
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:acacia_planks"
+        },    
+        
+        "B":
+        {
+            "item": "mcwtrpdoors:acacia_glass_trapdoor"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwtrpdoors:acacia_barn_trapdoor",
+        "count": 1
+    }
+}
+
+

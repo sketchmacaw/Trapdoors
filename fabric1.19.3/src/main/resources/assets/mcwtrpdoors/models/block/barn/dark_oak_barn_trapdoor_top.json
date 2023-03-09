@@ -1,0 +1,6 @@
+{
+    "parent": "mcwtrpdoors:block/parent/template_orientable_trapdoor_top",
+    "textures": {
+        "texture": "mcwtrpdoors:block/barn/dark_oak_barn_trapdoor"
+    }
+}

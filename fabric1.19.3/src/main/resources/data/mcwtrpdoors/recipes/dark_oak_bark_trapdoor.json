@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "bark_trapdoors",
+	
+    
+    "pattern":
+    [
+        "ABA",
+        "ABA"              
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:dark_oak_log"
+        },    
+        
+        "B":
+        {
+            "item": "minecraft:glass_pane"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwtrpdoors:dark_oak_bark_trapdoor",
+        "count": 2
+    }
+}
+
+

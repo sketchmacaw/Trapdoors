@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "barred_trapdoors",
+    
+    "pattern":
+    [
+        "A",
+        "B",
+        "A"                
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:jungle_planks"
+        },    
+        
+        "B":
+        {
+            "item": "mcwtrpdoors:print_barred"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwtrpdoors:jungle_barred_trapdoor",
+        "count": 1
+    }
+}
+
+

@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"group": "cottage_trapdoors",
+    
+    "pattern":
+    [
+        "A",
+        "B",
+        "A"                
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:warped_planks"
+        },    
+        
+        "B":
+        {
+            "item": "mcwtrpdoors:print_cottage"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwtrpdoors:warped_cottage_trapdoor",
+        "count": 1
+    }
+}
+
+

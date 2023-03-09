@@ -1,0 +1,9 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "mcwtrpdoors:block/parent/trapdoor_top",
+	"textures": {
+		"1": "minecraft:block/warped_stem",
+		"2": "minecraft:block/glass",
+		"particle": "minecraft:block/warped_stem"
+	}
+}
