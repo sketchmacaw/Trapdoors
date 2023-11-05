@@ -1,0 +1,6 @@
+{
+    "parent": "mcwtrpdoors:block/parent/template_orientable_trapdoor_top",
+    "textures": {
+        "texture": "mcwtrpdoors:block/barrel/jungle_barrel_trapdoor"
+    }
+}

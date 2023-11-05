@@ -1,7 +1,0 @@
-{
-    "parent": "item/generated",
-    "textures": 
-    {
-        "layer0": "mcwtrpdoors:item/print_cottage"
-    }
-}

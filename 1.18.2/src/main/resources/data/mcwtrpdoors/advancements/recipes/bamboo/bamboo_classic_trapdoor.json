@@ -6,12 +6,14 @@
     ]
   },
   "criteria": {
-    "has_planks": {
+    "has_logs": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:bamboo"
+            "items": 
+			[ "minecraft:bamboo"
+                      ]
           }
         ]
       }
@@ -25,7 +27,7 @@
   },
   "requirements": [
     [
-      "has_planks",
+      "has_logs",
       "has_the_recipe"
     ]
   ]

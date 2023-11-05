@@ -14,8 +14,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class BlockInit {
 
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MacawsTrapdoors.MOD_ID);
-	public static final DeferredRegister<Block> BLOCKS_STONE = DeferredRegister.create(ForgeRegistries.BLOCKS, MacawsTrapdoors.MOD_ID);
-	
+
 	public static final RegistryObject<Block> OAK_BARN_TRAPDOOR = BLOCKS.register("oak_barn_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
 	public static final RegistryObject<Block> OAK_BARRED_TRAPDOOR = BLOCKS.register("oak_barred_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
 	public static final RegistryObject<Block> OAK_BEACH_TRAPDOOR = BLOCKS.register("oak_beach_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
@@ -144,10 +143,33 @@ public class BlockInit {
 	
 	public static final RegistryObject<Block> BAMBOO_TRAPDOOR = BLOCKS.register("bamboo_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.COLOR_GREEN).strength(1.5F, 2.5F).sound(SoundType.BAMBOO).noOcclusion()));
 	
-	public static final RegistryObject<Block> METAL_TRAPDOOR = BLOCKS_STONE.register("metal_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.METAL).strength(1.5F, 3.0F).sound(SoundType.METAL).noOcclusion().requiresCorrectToolForDrops()));
+	public static final RegistryObject<Block> METAL_TRAPDOOR = BLOCKS.register("metal_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.METAL).strength(1.5F, 3.0F).sound(SoundType.METAL).noOcclusion().requiresCorrectToolForDrops()));
 	
-	public static final RegistryObject<Block> METAL_FULL_TRAPDOOR = BLOCKS_STONE.register("metal_full_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.METAL).strength(1.5F, 3.0F).sound(SoundType.METAL).noOcclusion().requiresCorrectToolForDrops()));
-	public static final RegistryObject<Block> METAL_WARNING_TRAPDOOR = BLOCKS_STONE.register("metal_warning_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.METAL).strength(1.5F, 3.0F).sound(SoundType.METAL).noOcclusion().requiresCorrectToolForDrops()));
+	public static final RegistryObject<Block> METAL_FULL_TRAPDOOR = BLOCKS.register("metal_full_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.METAL).strength(1.5F, 3.0F).sound(SoundType.METAL).noOcclusion().requiresCorrectToolForDrops()));
+	public static final RegistryObject<Block> METAL_WARNING_TRAPDOOR = BLOCKS.register("metal_warning_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.METAL).strength(1.5F, 3.0F).sound(SoundType.METAL).noOcclusion().requiresCorrectToolForDrops()));
+
+	public static final RegistryObject<Block> OAK_BLOSSOM_TRAPDOOR = BLOCKS.register("oak_blossom_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.COLOR_PINK).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> SPRUCE_BLOSSOM_TRAPDOOR = BLOCKS.register("spruce_blossom_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.COLOR_PINK).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> BIRCH_BLOSSOM_TRAPDOOR = BLOCKS.register("birch_blossom_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.COLOR_PINK).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> JUNGLE_BLOSSOM_TRAPDOOR = BLOCKS.register("jungle_blossom_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.COLOR_PINK).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> ACACIA_BLOSSOM_TRAPDOOR = BLOCKS.register("acacia_blossom_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.COLOR_PINK).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> DARK_OAK_BLOSSOM_TRAPDOOR = BLOCKS.register("dark_oak_blossom_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.COLOR_PINK).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> WARPED_BLOSSOM_TRAPDOOR = BLOCKS.register("warped_blossom_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.COLOR_PINK).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> CRIMSON_BLOSSOM_TRAPDOOR = BLOCKS.register("crimson_blossom_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.COLOR_PINK).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> BAMBOO_BLOSSOM_TRAPDOOR = BLOCKS.register("bamboo_blossom_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.COLOR_PINK).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+
+
+	//1.1.2
+	
+	public static final RegistryObject<Block> OAK_BARREL_TRAPDOOR = BLOCKS.register("oak_barrel_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> SPRUCE_BARREL_TRAPDOOR = BLOCKS.register("spruce_barrel_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> BIRCH_BARREL_TRAPDOOR = BLOCKS.register("birch_barrel_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> JUNGLE_BARREL_TRAPDOOR = BLOCKS.register("jungle_barrel_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> ACACIA_BARREL_TRAPDOOR = BLOCKS.register("acacia_barrel_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> DARK_OAK_BARREL_TRAPDOOR = BLOCKS.register("dark_oak_barrel_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> WARPED_BARREL_TRAPDOOR = BLOCKS.register("warped_barrel_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.WARPED_STEM).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> CRIMSON_BARREL_TRAPDOOR = BLOCKS.register("crimson_barrel_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.CRIMSON_STEM).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
+	public static final RegistryObject<Block> BAMBOO_BARREL_TRAPDOOR = BLOCKS.register("bamboo_barrel_trapdoor", () -> new TrapDoorBlock(Block.Properties.of(Material.WOOD, MaterialColor.WOOD).strength(1.5F, 2.5F).sound(SoundType.WOOD).noOcclusion()));
 
 	
 }

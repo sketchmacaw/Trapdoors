@@ -98,7 +98,7 @@ public class ClientEventBusSubscriber {
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.DARK_OAK_SWAMP_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.CRIMSON_SWAMP_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.WARPED_SWAMP_TRAPDOOR.get(), RenderType.cutout());
-		
+
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.OAK_BARK_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.SPRUCE_BARK_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.BIRCH_BARK_TRAPDOOR.get(), RenderType.cutout());
@@ -140,8 +140,18 @@ public class ClientEventBusSubscriber {
 		
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.METAL_TRAPDOOR.get(), RenderType.cutout());
 		ItemBlockRenderTypes.setRenderLayer(BlockInit.METAL_WARNING_TRAPDOOR.get(), RenderType.cutout());
+		
+		
 	
-	
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.ACACIA_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.BAMBOO_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.BIRCH_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.CRIMSON_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.DARK_OAK_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.JUNGLE_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.OAK_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.SPRUCE_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(BlockInit.WARPED_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
 	
 	
 	

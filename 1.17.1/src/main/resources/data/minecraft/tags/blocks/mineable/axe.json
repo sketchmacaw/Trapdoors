@@ -11,6 +11,7 @@
 "mcwtrpdoors:oak_paper_trapdoor",
 "mcwtrpdoors:oak_tropical_trapdoor",
 "mcwtrpdoors:oak_swamp_trapdoor",
+"mcwtrpdoors:oak_blossom_trapdoor",
 
 "mcwtrpdoors:bamboo_trapdoor",
 
@@ -24,6 +25,7 @@
 "mcwtrpdoors:spruce_paper_trapdoor",
 "mcwtrpdoors:spruce_tropical_trapdoor",
 "mcwtrpdoors:spruce_swamp_trapdoor",
+"mcwtrpdoors:spruce_blossom_trapdoor",
 
 "mcwtrpdoors:birch_barn_trapdoor",
 "mcwtrpdoors:birch_barred_trapdoor",
@@ -35,6 +37,7 @@
 "mcwtrpdoors:birch_mystic_trapdoor",
 "mcwtrpdoors:birch_tropical_trapdoor",
 "mcwtrpdoors:birch_swamp_trapdoor",
+"mcwtrpdoors:birch_blossom_trapdoor",
 
 "mcwtrpdoors:jungle_barn_trapdoor",
 "mcwtrpdoors:jungle_barred_trapdoor",
@@ -46,6 +49,7 @@
 "mcwtrpdoors:jungle_paper_trapdoor",
 "mcwtrpdoors:jungle_tropical_trapdoor",
 "mcwtrpdoors:jungle_swamp_trapdoor",
+"mcwtrpdoors:jungle_blossom_trapdoor",
 
 "mcwtrpdoors:acacia_barn_trapdoor",
 "mcwtrpdoors:acacia_barred_trapdoor",
@@ -57,6 +61,7 @@
 "mcwtrpdoors:acacia_mystic_trapdoor",
 "mcwtrpdoors:acacia_paper_trapdoor",
 "mcwtrpdoors:acacia_swamp_trapdoor",
+"mcwtrpdoors:acacia_blossom_trapdoor",
 
 "mcwtrpdoors:dark_oak_barn_trapdoor",
 "mcwtrpdoors:dark_oak_barred_trapdoor",
@@ -68,6 +73,7 @@
 "mcwtrpdoors:dark_oak_paper_trapdoor",
 "mcwtrpdoors:dark_oak_tropical_trapdoor",
 "mcwtrpdoors:dark_oak_swamp_trapdoor",
+"mcwtrpdoors:dark_oak_blossom_trapdoor",
 
 "mcwtrpdoors:crimson_barn_trapdoor",
 "mcwtrpdoors:crimson_beach_trapdoor",
@@ -79,6 +85,7 @@
 "mcwtrpdoors:crimson_paper_trapdoor",
 "mcwtrpdoors:crimson_tropical_trapdoor",
 "mcwtrpdoors:crimson_swamp_trapdoor",
+"mcwtrpdoors:crimson_blossom_trapdoor",
 
 "mcwtrpdoors:warped_barn_trapdoor",
 "mcwtrpdoors:warped_barred_trapdoor",
@@ -90,6 +97,7 @@
 "mcwtrpdoors:warped_paper_trapdoor",
 "mcwtrpdoors:warped_tropical_trapdoor",
 "mcwtrpdoors:warped_swamp_trapdoor",
+"mcwtrpdoors:warped_blossom_trapdoor",
 
 "mcwtrpdoors:bamboo_barn_trapdoor",
 "mcwtrpdoors:bamboo_barred_trapdoor",
@@ -102,6 +110,8 @@
 "mcwtrpdoors:bamboo_tropical_trapdoor",
 "mcwtrpdoors:bamboo_classic_trapdoor",
 "mcwtrpdoors:bamboo_swamp_trapdoor",
+"mcwtrpdoors:bamboo_blossom_trapdoor",
+
 
 "mcwtrpdoors:oak_bamboo_trapdoor",
 "mcwtrpdoors:spruce_bamboo_trapdoor",
@@ -112,6 +122,7 @@
 "mcwtrpdoors:crimson_bamboo_trapdoor",
 "mcwtrpdoors:warped_bamboo_trapdoor",
 
+
 "mcwtrpdoors:oak_bark_trapdoor",
 "mcwtrpdoors:spruce_bark_trapdoor",
 "mcwtrpdoors:birch_bark_trapdoor",
@@ -120,6 +131,16 @@
 "mcwtrpdoors:dark_oak_bark_trapdoor",
 "mcwtrpdoors:crimson_bark_trapdoor",
 "mcwtrpdoors:warped_bark_trapdoor",
+
+"mcwtrpdoors:oak_barrel_trapdoor",
+"mcwtrpdoors:spruce_barrel_trapdoor",
+"mcwtrpdoors:birch_barrel_trapdoor",
+"mcwtrpdoors:jungle_barrel_trapdoor",
+"mcwtrpdoors:acacia_barrel_trapdoor",
+"mcwtrpdoors:dark_oak_barrel_trapdoor",
+"mcwtrpdoors:crimson_barrel_trapdoor",
+"mcwtrpdoors:warped_barrel_trapdoor",
+"mcwtrpdoors:bamboo_barrel_trapdoor",
 
 "mcwtrpdoors:oak_ranch_trapdoor",
 "mcwtrpdoors:spruce_ranch_trapdoor",

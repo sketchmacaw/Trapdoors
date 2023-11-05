@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "mcwtrpdoors:print_blossom"
+    ]
+  },
+  "criteria": {
+    "has_logs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": 
+			[ "minecraft:pink_dye"
+                      ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mcwtrpdoors:print_blossom"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_logs",
+      "has_the_recipe"
+    ]
+  ]
+}

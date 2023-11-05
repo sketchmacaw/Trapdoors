@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        " A ",
+        "ABA",
+        " A "                
+    ],
+    
+    "key":
+    { 
+        "A":
+        {
+            "item": "minecraft:paper"
+        },    
+        
+        "B":
+        {
+            "item": "minecraft:pink_dye"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwtrpdoors:print_blossom",
+        "count": 4
+    }
+}
+
+

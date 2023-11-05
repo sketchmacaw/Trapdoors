@@ -1,14 +1,14 @@
 package com.mcwtrpdoors.kikoz.util;
 
 import com.mcwtrpdoors.kikoz.MacawsTrapdoors;
+import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import com.mcwtrpdoors.kikoz.init.BlockInit;
 
-import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 
 @Mod.EventBusSubscriber(modid = MacawsTrapdoors.MOD_ID, bus = Bus.MOD, value = Dist.CLIENT)
@@ -142,7 +142,15 @@ public class ClientEventBusSubscriber {
 		RenderTypeLookup.setRenderLayer(BlockInit.METAL_WARNING_TRAPDOOR.get(), RenderType.cutout());
 	
 	
-	
+		RenderTypeLookup.setRenderLayer(BlockInit.ACACIA_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		RenderTypeLookup.setRenderLayer(BlockInit.BAMBOO_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		RenderTypeLookup.setRenderLayer(BlockInit.BIRCH_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		RenderTypeLookup.setRenderLayer(BlockInit.CRIMSON_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		RenderTypeLookup.setRenderLayer(BlockInit.DARK_OAK_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		RenderTypeLookup.setRenderLayer(BlockInit.JUNGLE_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		RenderTypeLookup.setRenderLayer(BlockInit.OAK_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		RenderTypeLookup.setRenderLayer(BlockInit.SPRUCE_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
+		RenderTypeLookup.setRenderLayer(BlockInit.WARPED_BLOSSOM_TRAPDOOR.get(), RenderType.cutout());
 	
 	
 	}}
